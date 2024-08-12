@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .buttons{
+            width: 400px;
+            height: 70px;
+            border: 2px solid hsl(256, 98%, 22%);
+            border-radius: 162px;
+            display:flex;
+        }
+
+        .buttons div{
+            display:flex;
+            justify-content: center;
+            align-self: center;
+            box-shadow: #000000 2px 2px 5px;
+        }
+
+        .btn1{
+            width: 100px;
+            height: 50px;
+            background-color: rgb(3, 62, 90);
+            margin: 20px;
+            color: #ffffff;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 162px;
+
+            transition: transform .4s ease;
+        }
+
+        .btn1:hover{
+        transform: scale(1.1);
+        }
+
+        .btn2{
+            width: 100px;
+            height: 50px;
+            background-color: rgb(230, 32, 114);
+            margin: 20px;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 162px;
+
+            transition: background-color .4s ease;
+        }
+
+        .btn2:hover{
+        background-color: rgb(158, 2, 54);
+        }
+
+        .btn3{
+            width: 100px;
+            height: 50px;
+            background-color: rgb(6, 87, 13);
+            margin: 20px;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 162px;
+
+            transition: transform .4s ease;
+        }
+
+        .btn3:hover{
+        transform: scale(0.8);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="buttons">
+        <div class="btn1">BIG</div>
+        <div class="btn2">Color</div>
+        <div class="btn3">little</div>
+    </div>
+</body>
+</html>
